@@ -1,0 +1,23 @@
+{
+  "name": "exec-dependent",
+  "version": "1.0.0",
+  "description": "Attempt at simple reproducible execution example (from the dependent's end)",
+  "main": "index.js",
+  "scripts": {
+    "world": "node_modules/.bin/exec-world",
+    "other": "node_modules/.bin/exec-other"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plocket/exec-dependent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plocket/exec-dependent/issues"
+  },
+  "homepage": "https://github.com/plocket/exec-dependent#readme",
+  "dependencies": {
+    "@plocket/cucumber-exec": "^1.0.0"
+  }
+}
