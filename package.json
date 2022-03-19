@@ -4,6 +4,7 @@
   "description": "Attempt at simple reproducible execution example (from the dependent's end)",
   "main": "index.js",
   "scripts": {
+    "cucumber": "cucumber-js --require node_modules/@plocket/cucumber-exec/index.js --publish-quiet",
     "world": "node_modules/.bin/exec-world",
     "other": "node_modules/.bin/exec-other"
   },
